@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: better-bets
+    env: node
+    buildCommand: npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend
+    startCommand: node backend/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ODDS_API_KEY
+        sync: false
+      - key: BETTERBETS_API_KEY
+        sync: false
+      - key: PORT
+        value: 4000
+      - key: CORS_ORIGINS
+        sync: false
