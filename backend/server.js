@@ -216,7 +216,7 @@ function requireApiKey(req, res, next) {
 
   next();
 }
-app.use('/api', requireApiKey);
+// app.use(’/api’, requireApiKey);
 
 // Basic health check to ensure backend is running
 app.get('/api/health', (req, res) => {
