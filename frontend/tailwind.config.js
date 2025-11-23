@@ -1,3 +1,4 @@
+// LOCKED: DO NOT MIGRATE TO TAILWIND V4
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ["class"],
