@@ -1,0 +1,12 @@
+{
+  "uiModification": false,
+  "cssMigration": false,
+  "tailwindMigration": false,
+  "componentInjection": false,
+  "allowedChanges": [
+    "backend/server.js",
+    "backend/lib/*",
+    "frontend/src/filters/*",
+    "frontend/src/pages/*"
+  ]
+}

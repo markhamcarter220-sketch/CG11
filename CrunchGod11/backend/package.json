@@ -1,0 +1,19 @@
+{
+  "name": "better-bets-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "prebuild": "node ../scripts/prebuild-guard.js",
+    "health": "node ../scripts/api-health-check.js",
+    "ui-check": "node ../scripts/ui-smoke-check.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

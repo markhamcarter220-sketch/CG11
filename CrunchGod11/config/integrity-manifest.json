@@ -1,0 +1,20 @@
+{
+  "version": "CG7",
+  "forbiddenPaths": [
+    "frontend/src/components/ui",
+    "frontend/plugins/visual-edits",
+    "frontend/plugins/health-check",
+    "backend/server-old.js",
+    "backend/server.py"
+  ],
+  "expectedApiRoutes": [
+    "/api/health",
+    "/api/odds",
+    "/api/scan"
+  ],
+  "expectedFrontendMarkers": [
+    "scan",
+    "edge",
+    "odds"
+  ]
+}
